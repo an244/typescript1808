@@ -4,8 +4,8 @@ function sayHello(name) {
     console.log('Xin chao ' + name);
 }
 sayHello('An');
-var age = 10;
+let age = 10;
 age = 100;
 console.log(age);
-var sayHello2 = function (name) { return 'xin chao ' + name; };
+const sayHello2 = (name) => 'xin chao ' + name;
 console.log(sayHello2('Thien'));
