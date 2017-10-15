@@ -105,3 +105,17 @@ function getTotal(a: number, b: number): Promise<number>{
         })
     });
 }
+
+//enum
+enum Huong {Dong, Tay, Nam, Bac};
+
+class Nha {
+    huong: Huong;
+}
+
+const n1 = new Nha();
+n1.huong = Huong.Bac;
+
+//fn
+let fn: (num: number)=> number;
+fn = ()=> 123;
